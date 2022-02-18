@@ -6,7 +6,7 @@ ENV NODE_ENV production
 
 WORKDIR /server
 
-COPY --chown=node:node package*.json /app
+COPY --chown=node:node package*.json /app/
 
 RUN npm ci
 
