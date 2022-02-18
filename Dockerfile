@@ -10,7 +10,7 @@ COPY --chown=node:node package*.json /app/
 
 RUN npm ci
 
-COPY --chown=node:node . .
+COPY --chown=node:node . ./
 
 RUN npm build
 
