@@ -6,9 +6,9 @@ ENV NODE_ENV production
 
 WORKDIR /server
 
-COPY --chown=node:node package.json package-lock.json /app/
+COPY --chown=node:node package.json package-lock.json /server/
 
-RUN npm i
+RUN npm ci
 
 COPY --chown=node:node . ./
 
