@@ -8,7 +8,7 @@ WORKDIR /server
 
 COPY --chown=node:node package.json package-lock.json /app/
 
-RUN npm ci
+RUN npm i
 
 COPY --chown=node:node . ./
 
