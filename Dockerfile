@@ -1,6 +1,6 @@
 FROM node:16
 LABEL maintainer="Philipp Dippel <dev@pjirlip.eu>"
-LABEL org.opencontainers.image.source=https://github.com/Pjirlip/webnv-api
+LABEL org.opencontainers.image.source=https://github.com/pjirlip/webnv-api
 
 ENV NODE_ENV production
 
